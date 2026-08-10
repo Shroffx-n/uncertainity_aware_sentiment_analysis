@@ -1,0 +1,50 @@
+{
+  "accuracy_gaps": {
+    "VADER_qwen": {
+      "accuracy_on_human_text": 0.7014,
+      "accuracy_on_ai_paraphrase": 0.7336,
+      "accuracy_gap": -0.0322,
+      "human_vs_ai_label_agreement": 0.8352
+    },
+    "VADER_gemma": {
+      "accuracy_on_human_text": 0.7014,
+      "accuracy_on_ai_paraphrase": 0.684,
+      "accuracy_gap": 0.0174,
+      "human_vs_ai_label_agreement": 0.8232
+    },
+    "RoBERTa_qwen": {
+      "accuracy_on_human_text": 0.8222,
+      "accuracy_on_ai_paraphrase": 0.8804,
+      "accuracy_gap": -0.0582,
+      "human_vs_ai_label_agreement": 0.8854
+    },
+    "RoBERTa_gemma": {
+      "accuracy_on_human_text": 0.8222,
+      "accuracy_on_ai_paraphrase": 0.8596,
+      "accuracy_gap": -0.0374,
+      "human_vs_ai_label_agreement": 0.8842
+    }
+  },
+  "semantic_drift": {
+    "VADER_qwen": {
+      "semantic_drift_rate": 0.1648,
+      "n_drifted": 824,
+      "n_total": 5000
+    },
+    "VADER_gemma": {
+      "semantic_drift_rate": 0.1768,
+      "n_drifted": 884,
+      "n_total": 5000
+    },
+    "RoBERTa_qwen": {
+      "semantic_drift_rate": 0.1146,
+      "n_drifted": 573,
+      "n_total": 5000
+    },
+    "RoBERTa_gemma": {
+      "semantic_drift_rate": 0.1158,
+      "n_drifted": 579,
+      "n_total": 5000
+    }
+  }
+}

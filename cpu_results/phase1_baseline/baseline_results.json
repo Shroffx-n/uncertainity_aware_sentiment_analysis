@@ -1,0 +1,16 @@
+{
+  "n_isarcasm": 3468,
+  "n_sarc_balanced": 5000,
+  "n_tweeteval": 12284,
+  "vader_label_distribution": {
+    "positive": 1790,
+    "negative": 957,
+    "neutral": 721
+  },
+  "roberta_label_distribution": {
+    "negative": 1342,
+    "positive": 1280,
+    "neutral": 846
+  },
+  "pct_sarcastic_in_isarcasm": 0.25
+}

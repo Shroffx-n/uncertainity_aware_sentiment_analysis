@@ -1,0 +1,15 @@
+{
+  "clear_polarity_ECE": 0.0564,
+  "sarcasm_ECE": null,
+  "sarcasm_instability_stats": {
+    "mean_confidence_sarcastic": 0.7405,
+    "mean_confidence_non_sarcastic": 0.7697,
+    "std_confidence_sarcastic": 0.1664,
+    "std_confidence_non_sarcastic": 0.1692,
+    "n_sarcastic": 867,
+    "n_non_sarcastic": 2601,
+    "mannwhitney_u": 1005294.5,
+    "mannwhitney_p": 2e-06
+  },
+  "ai_generated_text_ECE": null
+}

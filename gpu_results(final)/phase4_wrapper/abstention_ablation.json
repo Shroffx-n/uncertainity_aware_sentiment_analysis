@@ -1,0 +1,8 @@
+{
+  "full_set_accuracy": 0.8222,
+  "accuracy_after_abstaining_ambiguous": 0.8888,
+  "pct_flagged_ambiguous": 0.14,
+  "n_flagged": 700,
+  "n_total": 5000,
+  "accuracy_improvement": 0.0666
+}

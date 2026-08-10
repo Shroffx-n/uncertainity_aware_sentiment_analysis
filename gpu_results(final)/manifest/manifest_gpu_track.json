@@ -1,0 +1,58 @@
+{
+  "run_timestamp_utc": "2026-08-09T09:40:31.336310+00:00",
+  "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "seed": 42,
+  "packages": {
+    "transformers": "5.0.0",
+    "datasets": "5.0.0",
+    "torch": "2.10.0+cu128",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1",
+    "scipy": "1.16.3"
+  },
+  "datasets": {
+    "HC3::train": {
+      "n_examples": 24322,
+      "source_url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "revision": null,
+      "sample_hash": "49937d68aaeaa0ad"
+    },
+    "YelpPolarity::stratified_sample": {
+      "n_examples": 5000,
+      "source_url": "https://huggingface.co/datasets/yelp_polarity",
+      "revision": null,
+      "sample_hash": "80e5d6b881fe853d"
+    }
+  },
+  "models": {
+    "gemma4:e4b": {
+      "revision": "ollama-latest",
+      "quantization": "ollama-q4"
+    }
+  },
+  "notes": [
+    "iSarcasm label_col schema must be manually confirmed per release.",
+    "SARC license terms must be verified before redistribution.",
+    "Gemma 3 served via Ollama (ollama.com) -- no HF token required.",
+    "Models: Qwen on cuda:0 (float16), Gemma via Ollama on cuda:1."
+  ],
+  "installed_versions": {
+    "transformers": "5.0.0",
+    "datasets": "5.0.0",
+    "torch": "2.10.0+cu128",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3",
+    "accelerate": "1.13.0",
+    "bitsandbytes": "0.50.0",
+    "huggingface-hub": "1.11.0",
+    "matplotlib": "3.10.0",
+    "bert-score": "0.3.13",
+    "sentencepiece": "0.2.1",
+    "cuda_version": "12.8",
+    "python": "3.12.13"
+  }
+}

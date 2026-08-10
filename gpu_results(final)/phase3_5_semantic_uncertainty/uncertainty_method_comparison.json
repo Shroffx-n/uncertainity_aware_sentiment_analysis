@@ -1,0 +1,6 @@
+{
+  "AUROC_semantic_entropy_predicts_error": 0.6506,
+  "AUROC_mc_dropout_predicts_error": 0.6462,
+  "n_examples": 300,
+  "interpretation": "Higher AUROC means the uncertainty signal better separates correct from incorrect predictions. Compare against Atil et al. (2024) and Semantic Energy (arXiv:2508.14496) reported AUROC ranges in the writeup."
+}
